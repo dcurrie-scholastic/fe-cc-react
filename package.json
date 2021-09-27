@@ -8,14 +8,13 @@
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "react-scripts": "4.0.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "run-p server api",
+    "server": "PORT=8080 react-scripts start",
+    "api": "json-server --watch db.json",
+    "test": "react-scripts test"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +33,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "json-server": "^0.16.3",
+    "npm-run-all": "^4.1.5"
   }
 }

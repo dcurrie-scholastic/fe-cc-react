@@ -1,0 +1,94 @@
+{
+  "people": [
+    {
+      "id": "5dd55eaf9bc511f45d995c5e",
+      "isActive": true,
+      "name": {
+        "first": "Potter",
+        "last": "King"
+      },
+      "company": "ZUVY"
+    },
+    {
+      "id": "5dd55eaf9c102b5f393eb251",
+      "isActive": false,
+      "name": {
+        "first": "Agnes",
+        "last": "Mccarty"
+      },
+      "company": "ACCIDENCY"
+    },
+    {
+      "id": "5dd55eaf7864c63360294a13",
+      "isActive": false,
+      "name": {
+        "first": "Mann",
+        "last": "Whitley"
+      },
+      "company": "XINWARE"
+    },
+    {
+      "id": "5dd55eaf5ca5b23fe49bd1ff",
+      "isActive": true,
+      "name": {
+        "first": "Welch",
+        "last": "Solis"
+      },
+      "company": "VALREDA"
+    },
+    {
+      "id": "5dd55eaf1899d54ca014e2dd",
+      "isActive": true,
+      "name": {
+        "first": "Goldie",
+        "last": "Blackwell"
+      },
+      "company": "INTERLOO"
+    },
+    {
+      "id": "5dd55eaf15886996591c6272",
+      "isActive": false,
+      "name": {
+        "first": "Jenifer",
+        "last": "Gordon"
+      },
+      "company": "CUIZINE"
+    },
+    {
+      "id": "5dd55eafa536e4036c53059e",
+      "isActive": true,
+      "name": {
+        "first": "Esther",
+        "last": "Curry"
+      },
+      "company": "QIMONK"
+    },
+    {
+      "id": "5dd55eaf66875db3e49fa16c",
+      "isActive": false,
+      "name": {
+        "first": "Randall",
+        "last": "Shaw"
+      },
+      "company": "OPTICALL"
+    },
+    {
+      "id": "5dd55eafccbc6b7cff865426",
+      "isActive": true,
+      "name": {
+        "first": "Isabella",
+        "last": "Johnson"
+      },
+      "company": "COMTEST"
+    },
+    {
+      "id": "5dd55eafe044a12fae168e59",
+      "isActive": true,
+      "name": {
+        "first": "Michele",
+        "last": "Cochran"
+      },
+      "company": "COMVEYER"
+    }
+  ]
+}
