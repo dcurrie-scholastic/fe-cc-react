@@ -11,10 +11,10 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
-    "start": "run-p server api",
-    "server": "PORT=8080 react-scripts start",
-    "api": "json-server --watch db.json",
-    "test": "react-scripts test"
+    "start": "cross-env run-p server api",
+    "server": "cross-env PORT=8080 react-scripts start",
+    "api": "cross-env json-server --watch db.json",
+    "test": "cross-env react-scripts test"
   },
   "eslintConfig": {
     "extends": [
@@ -35,6 +35,7 @@
     ]
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "json-server": "^0.16.3",
     "npm-run-all": "^4.1.5"
   }
